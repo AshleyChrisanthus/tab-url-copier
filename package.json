@@ -1,0 +1,20 @@
+{
+  "name": "tab-url-copier",
+  "version": "1.0.0",
+  "description": "Browser extension to capture URLs of open tabs across customizable scopes and copy them formatted one per line.",
+  "main": "src/background.js",
+  "scripts": {
+    "test": "node tests/tabUtils.test.js",
+    "generate-icons": "python scripts/generate_icons.py"
+  },
+  "keywords": [
+    "browser-extension",
+    "tabs",
+    "urls",
+    "clipboard",
+    "productivity",
+    "manifest-v3"
+  ],
+  "author": "Ashley Chrisanthus",
+  "license": "MIT"
+}
